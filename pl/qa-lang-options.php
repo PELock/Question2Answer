@@ -1,23 +1,32 @@
 <?php
+	
 /*
-	Question2Answer by Gideon Greenspan and contributors
-	http://www.question2answer.org/
+	Question2Answer (c) Gideon Greenspan
 
-	File: qa-include/qa-lang-emails.php
-	Description: Language phrases for email notifications
+	https://www.question2answer.org/
+
+	
+	File: qa-include/qa-lang-options.php
+	Version: See define()s at top of qa-include/qa-base.php
+	Description: Language phrases for all options, as shown in admin center
 
 
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-
+	
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.question2answer.org/license.php
+	More about this license: https://www.question2answer.org/license.php
+
+	Polish translation by Bartosz Wójcik
+
+	Translation repository: https://github.com/PELock/Question2Answer
+	My web page: https://www.pelock.com
 */
 
 	return array(
@@ -158,6 +167,7 @@
 		'page_size_tag_qs' => 'Liczba pytań na stronie tagów:',
 		'page_size_tags' => 'Długość strony tagów:',
 		'page_size_una_qs' => 'Długość strony pytań bez odpowiedzi:',
+		'page_size_user_posts' => 'Długość treści na stronie użytkownik:',
 		'page_size_users' => 'Długość strony użytkownika:',
 		'pages_prev_next' => 'Linki do strony poprzedniej/następnej:',
 		'permit_admins' => 'Administratorzy',
@@ -262,6 +272,7 @@
 		'voting_on_as' => 'Pozwól na głosowanie na odpowiedzi:',
 		'voting_on_q_page_only' => 'Pozwól na głosowanie na pytania jedynie na stronie pytania:',
 		'voting_on_qs' => 'Pozwól na głosowanie na pytania:',
+		'allow_anon_name' => "Poproś o nazwę dla anonimowych wiadomości:",
 		'allow_user_walls' => "Włącz wiadomości na tablicy na profilach użytkowników:",
 		'approve_user_required' => "Wszyscy nowi użytkownicy muszą zostać zatwierdzeni:",
 		'avatar_message_list_size' => "Rozmiara Awatara na listach wiadomości:",
@@ -284,6 +295,28 @@
 		'show_post_update_meta' => "Pokaż edycję/aktualizację w post meta:",
 		'show_register_terms' => "Zasady i Warunki checkbox na formie rejestracyjnej - dozwolone tagi HTML:",
 		'site_text_direction' => "Kierunek znaków na stronie:",
+
+		'allow_anonymous_naming' => "Zezwól anonimowym użytkownikom na ustawienie ich nazwy:",
+		'allow_close_own_questions' => "Zezwól użytkownikom na zamykanie ich własnych pytań:",
+		'block_bad_usernames' => "Zabronione nazwy użytkowników - oddziel je spacją lub przecinkami:",
+		'caching_catwidget_time' => "Zapisz do pamięci podręcznej widget dla kategorii:",
+		'caching_enabled' => "Włącz pamięc podręczną:",
+		'caching_driver' => "Sterownik pamięci podręcznej",
+		'caching_filesystem' => "System plików",
+		'caching_memcached' => "Memcached",
+		'caching_q_start' => "Rozpocznij wykorzystanie pamięci podręcznej po:",
+		'caching_q_time' => "Użyj pamięci podręcznej stron dla:",
+		'caching_qlist_time' => "Użyj pamięci podręcznej list dla:",
+		'minify_html' => "Minimailzuj kod HTML:",
+		'place_side_low' => "Boczny panel - Dół",
+		'points_c_voted_max_gain' => "Ogranicz górną liczbę głosów na każdy komentarz:",
+		'points_c_voted_max_loss' => "Ogranicz dolną liczbę głosów na każdy komentarz:",
+		'points_per_c_voted_down' => "Per down vote on your comment:",
+		'points_per_c_voted_up' => "Per up vote on your comment:",
+		'recalc_hotness_q_view' => "Przelicz popularność każdego pytania przy ilości wyświetleń:",
+		'show_compact_numbers' => "Pokaż uproszczone wartości liczbowe (np. 1.3k):",
+		'use_microdata' => "Używaj mikroformatu danych ze schema.org:",
+		'voting_on_cs' => "Zezwól na głosowanie na komentarze:",
 	);
 	
 

@@ -1,23 +1,32 @@
 <?php
+	
 /*
-	Question2Answer by Gideon Greenspan and contributors
-	http://www.question2answer.org/
+	Question2Answer (c) Gideon Greenspan
 
-	File: qa-include/qa-lang-emails.php
-	Description: Language phrases for email notifications
+	https://www.question2answer.org/
+
+	
+	File: qa-include/qa-lang-profile.php
+	Version: See define()s at top of qa-include/qa-base.php
+	Description: Language phrases for user profile page
 
 
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-
+	
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.question2answer.org/license.php
+	More about this license: https://www.question2answer.org/license.php
+
+	Polish translation by Bartosz Wójcik
+
+	Translation repository: https://github.com/PELock/Question2Answer
+	My web page: https://www.pelock.com
 */
 
 	return array(
@@ -66,7 +75,7 @@
 		'x_down_votes' => '^ głosów w dół',
 		'x_up_votes' => '^ głosów w górę',
 		'x_with_best_chosen' => ' (^ z wybraną najlepszą odpowiedzią)',
-			'answers_by_x' => "Pytanie zadane przez: ^",
+		'answers_by_x' => "Pytanie zadane przez: ^",
 		'delete_wall_post_popup' => "Usuń tą wiadomość ze ściany",
 		'no_answers_by_x' => "Brak odpowiedzi ^",
 		'no_questions_by_x' => "Brak pytań ^",
@@ -77,7 +86,7 @@
 		'post_wall_button' => "Dodaj wpis na ścianie",
 		'post_wall_empty' => "Proszę wpisać coś do umieszczenia na tej ścianie",
 		'post_wall_limit' => "Nie możesz napisać więcej wiadomości na ścianie w tej godzinie",
-		'post_wall_must_be_approved' => "Twoje konto musi zostać zatwierdzone, aby publikować na tej ścianie.",
+		'post_wall_must_be_approved' => "Twoje konto musi zostać zatwierdzone, aby publikować na tej ścianie. Proszę zaczekaj lub ^1podaj więcej informacji^2",
 		'post_wall_must_confirm' => "Proszę ^5potwierdź adres email^6 aby pisać na tej ścianie.",
 		'post_wall_must_login' => "Proszę ^1zaloguj się^2 lub ^3zarejestruj^4 aby pisać na tej ścianie.",
 		'questions_by_x' => "Pytania od ^",
@@ -85,8 +94,12 @@
 		'wall_view_more' => "Zobacz więcej wpisów na ścianie...",
 
 		'delete_pm_popup' => "Usuń prywatną wiadomość",
+
+		'permit_view_new_users_page' => "Oglądanie strony nowych użytkowników",
+		'permit_view_special_users_page' => "Oglądanie strony specjalnych użytkowników",
+		'permit_vote_c' => "Głosowanie na komentarze",
+		'user_x_disabled_pms' => "Użytkownik ^ wyłączył prywatne wiadomości.",
 	);
-	
 
 /*
 	Omit PHP closing tag to help avoid accidental output

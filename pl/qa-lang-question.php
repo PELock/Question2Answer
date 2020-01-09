@@ -1,24 +1,34 @@
 <?php
+	
 /*
-	Question2Answer by Gideon Greenspan and contributors
-	http://www.question2answer.org/
+	Question2Answer (c) Gideon Greenspan
 
-	File: qa-include/qa-lang-emails.php
-	Description: Language phrases for email notifications
+	https://www.question2answer.org/
+
+	
+	File: qa-include/qa-lang-question.php
+	Version: See define()s at top of qa-include/qa-base.php
+	Description: Language phrases for question page
 
 
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-
+	
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.question2answer.org/license.php
+	More about this license: https://www.question2answer.org/license.php
+
+	Polish translation by Bartosz Wójcik
+
+	Translation repository: https://github.com/PELock/Question2Answer
+	My web page: https://www.pelock.com
 */
+
 	return array(
 		'1_answer_title' => '1 odpowiedź',
 		'a_convert_to_c_on' => 'Zamień tę odpowiedź na komentarz do:',
@@ -153,10 +163,10 @@
 		'your_comment_a' => 'Twój komentarz do tej odpowiedzi:',
 		'your_comment_q' => 'Twój komentarz do tego pytania:',
 		'anon_name_label' => "Twoje imię i nazwisko, do wyświetlenia (opcjonalnie):",
-		'answer_must_be_approved' => "Twoje konto musi zostać zatwierdzone przed udzieleniem odpowiedzi na pytanie.",
-		'ask_must_be_approved' => "Twoje konto musi zostać zatwierdzone przed tym nim zadasz pytanie.",
+		'answer_must_be_approved' => "Twoje konto musi zostać zatwierdzone przed udzieleniem odpowiedzi na pytanie. Proszę zaczekaj lub ^1podaj więcej informacji^2",
+		'ask_must_be_approved' => "Twoje konto musi zostać zatwierdzone przed tym nim zadasz pytanie. Proszę zaczekaj lub ^1podaj więcej informacji^2",
 		'category_ask_not_allowed' => "Nie masz uprawnień do zadawania pytań w tej kategorii",
-		'comment_must_be_approved' => "Twoje konto musi zostać zatwierdzone przed dodaniem komentarza.",
+		'comment_must_be_approved' => "Twoje konto musi zostać zatwierdzone przed dodaniem komentarza. Proszę zaczekaj lub ^1podaj więcej informacji^2",
 		'save_silent_label' => "Zapisz dyskretnie aby ukryć, że było edytowane",
 
 		'approve_a_popup' => "Zaakceptuj tą odpowiedź",

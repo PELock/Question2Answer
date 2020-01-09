@@ -1,23 +1,31 @@
 <?php
+	
 /*
-	Question2Answer by Gideon Greenspan and contributors
-	http://www.question2answer.org/
+	Question2Answer (c) Gideon Greenspan
 
-	File: qa-include/qa-lang-emails.php
-	Description: Language phrases for email notifications
+	https://www.question2answer.org/
+	
+	File: qa-include/qa-lang-main.php
+	Version: See define()s at top of qa-include/qa-base.php
+	Description: Language phrases commonly used throughout Q2A
 
 
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-
+	
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.question2answer.org/license.php
+	More about this license: https://www.question2answer.org/license.php
+
+	Polish translation by Bartosz Wójcik
+
+	Translation repository: https://github.com/PELock/Question2Answer
+	My web page: https://www.pelock.com
 */
 
 	return array(
@@ -92,6 +100,7 @@
 		'meta_order' => '^what^when^where^who', // you can reorder but DO NOT translate! e.g. <answered> <15 hours ago> <in Problems> <by me (500 points)>
 		'min_length_x' => 'Podaj więcej informacji (co najmniej ^ znaków)',
 		'moved' => 'przeniesione',
+		'nav_account' => 'Moje konto',
 		'nav_activity' => 'Cała aktywność',
 		'nav_admin' => 'Ustawienia',
 		'nav_ask' => 'Zadaj pytanie',
@@ -214,7 +223,7 @@
 		'x_weeks' => '^ tygodni',
 		'x_years' => '^ lat',
 		'max_upload_size_x' => "Maksymalny rozmiar uploadu to ^",
-		'view_q_must_be_approved' => "Twoje konto musi zostać zatwierdzone przed przeglądaniem stron z pytaniami.",
+		'view_q_must_be_approved' => "Twoje konto musi zostać zatwierdzone przed przeglądaniem stron z pytaniami. Proszę zaczekaj lub ^1podaj więcej informacji^2",
 		'vote_disabled_approve' => "Twoje konto musi zostać zatwierdzone, zanim będzie można głosować",
 		'vote_disabled_down_approve' => "Twoje konto musi zostać zatwierdzone, zanim będzie można głosować w dół",
 		'written' => "napisano",
@@ -223,6 +232,15 @@
 		'file_upload_limit_exceeded' => "Rozmiar pliku przekracza limity serwera",
 		'since_x' => "od ^",
 		'to_x' => "do ^",
+
+		'_decimal_point' => ".",
+		'_thousands_separator' => ",",
+		'_thousands_suffix' => "k",
+		'_millions_suffix' => "m",
+		'newest_users' => "Najnowsi użytkownicy",
+		'vote_disabled_hidden_post' => "Nie możesz głosować na ukryte wpisy",
+		'vote_disabled_my_post' => "Nie możesz głosować na swoje własne wpisy",
+		'vote_disabled_queued' => "Możesz głosować jedynie na zaakceptowane wpisy",
 	);
 
 /*

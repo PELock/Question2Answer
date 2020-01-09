@@ -1,23 +1,32 @@
 <?php
+	
 /*
-	Question2Answer by Gideon Greenspan and contributors
-	http://www.question2answer.org/
+	Question2Answer (c) Gideon Greenspan
 
-	File: qa-include/qa-lang-emails.php
-	Description: Language phrases for email notifications
+	https://www.question2answer.org/
+
+	
+	File: qa-include/qa-lang-misc.php
+	Version: See define()s at top of qa-include/qa-base.php
+	Description: Miscellaneous language phrases
 
 
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-
+	
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.question2answer.org/license.php
+	More about this license: https://www.question2answer.org/license.php
+
+	Polish translation by Bartosz Wójcik
+
+	Translation repository: https://github.com/PELock/Question2Answer
+	My web page: https://www.pelock.com
 */
 
 	return array(
@@ -57,7 +66,9 @@
 		'message_for_x' => 'Twoja wiadomość dla ^:',
 		'message_limit' => 'Zbyt wiele wysłanych wiadomości. Spróbuj ponownie za godzinę',
 		'message_must_login' => '^1Zalogj się^2 albo ^3zarejestruj^4, aby wysłać wiadomość prywatną.',
+		'message_received_x_ago' => 'Odebrano ^ temu:',
 		'message_recent_history' => 'Ostatnia korespondencja z ^',
+		'message_sent_x_ago' => 'Wysłano ^ temu:',
 		'message_sent' => 'Twoja wiadomość została wysłana',
 		'my_favorites_title' => 'Ulubione',
 		'nav_all_my_updates' => 'Powiadomienia',
@@ -117,6 +128,8 @@
 		'outbox' => "Wysłane",
 		'pm_inbox_title' => "Otrzymane prywatne wiadomości",
 		'pm_outbox_title' => "Wysłane prywatne wiadomości",
+
+		'next_step' => "Następny krok",
 	);
 
 /*

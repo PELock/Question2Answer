@@ -1,23 +1,32 @@
 <?php
+	
 /*
-	Question2Answer by Gideon Greenspan and contributors
-	http://www.question2answer.org/
+	Question2Answer (c) Gideon Greenspan
 
-	File: qa-include/qa-lang-emails.php
-	Description: Language phrases for email notifications
+	https://www.question2answer.org/
+
+	
+	File: qa-include/qa-lang-admin.php
+	Version: See define()s at top of qa-include/qa-base.php
+	Description: Language phrases for admin center
 
 
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-
+	
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.question2answer.org/license.php
+	More about this license: https://www.question2answer.org/license.php
+
+	Polish translation by Bartosz Wójcik
+
+	Translation repository: https://github.com/PELock/Question2Answer
+	My web page: https://www.pelock.com
 */
 
 	return array(
@@ -107,6 +116,7 @@
 		'hidden_questions_deleted' => 'Usunięto ^1 z ^2 ukrytych pytań bez potomków...',
 		'hotness_factors' => 'Czynniki ustalania gorących pytań:',
 		'hidden_title' => 'Ukryte',
+		'installed_plugins' => 'Zainstalowane wtyczki:',
 		'ip_address_pages' => 'Strony adresów IP',
 		'layout_title' => 'Wygląd',
 		'link_name' => 'Treść linku:',
@@ -133,6 +143,7 @@
 		'no_image_gd' => 'Zainstalowana jest wersja PHP bez biblioteki GD, przez co użytkownicy nie mogą bezpośrednio wgrywać swoich awatarów.',
 		'no_link' => 'Brak linku',
 		'no_multibyte' => 'Zainstalowana jest wersja PHP bez biblioteki tekstowej multibyte. Wyszukiwanie ze znakami narodowymi nie będzie efektywne.',
+		'no_plugin_options' => 'Żadna z zainstalowanych wtyczek nie posiada opcji do wyświetlenia.',
 		'no_privileges' => 'Ta strona jest dostępna tylko dla administratorów.',
 		'not_logged_in' => '^1Zaloguj się^2 jako administrator, aby uzyskać dostęp.',
 		'opposite_main_menu' => 'Po przeciwnej stronie zakładek na górze',
@@ -267,14 +278,29 @@
 		'no_unapproved_found' => "Żaden użytkownik nie czeka na zatwierdzenie",
 		'show_on_register_form' => "Pokaż pole w formularzu rejestracyjnym użytkownika",
 
-
 		'approve_user_popup' => "Zaakceptuj użytkownika",
 		'block_user_popup' => "Zablokuj użytkownika",
 		'registration_fields' => "dodaj pole rejestracyjne",
 		'reset_options_confirm' => "Czy jesteś pewien, że chcesz zresetować wszystkie opcje na tej stronie?",
 		'save_view_button' => "Zapisz i Zobacz",
+
+		'caching_cleanup' => "Operacje czyszczenia pamięci podręcznej",
+		'caching_delete_all' => "Usuń całą pamięć podręczną",
+		'caching_delete_complete' => "Pamięć podręczna została usunięta",
+		'caching_delete_expired' => "Usuń wygasłą pamięć podręczną",
+		'caching_delete_progress' => "Usunięcto ^1 z ^2 plików pamięci podręcznej...",
+		'caching_dir_error' => "Katalog ^ zdefiniowany jako QA_CACHE_DIRECTORY nie posiada praw do zapisu przez serwer webowy.",
+		'caching_dir_missing' => "Katalog pamięci podręcznej nie został ustawiony.",
+		'caching_dir_public' => "Katalog ^ zdefiniowany jako QA_CACHE_DIRECTORY musi znajdować się poza publiczną ścieżką root.",
+		'caching_num_items' => "Ilość elementów w pamięci podręcznej",
+		'caching_space_used' => "Całkowity rozmiar pamięci podręcznej",
+		'caching_title' => "Caching",
+		'enabled' => "Włączone",
+		'memcached_error' => "Błąd systemu Memcached: ^",
+		'no_memcached' => "Rozszerzenie Memcached PHP nie zostało zainstalowane.",
+		'recalc_hotness_q_view_note' => "Może nieznacznie poprawić prędkość ładowania strony jeśli wyłączone, ale wartości określające popularność zostaną ustawione jako wygaśnięte jeśli ilość wyświetleń zostanie ujęta w ustawieniach popularności",
+		'total_qs_unans' => "Całkowita liczba pytań bez odpowiedzi:",
 	);
-	
 
 /*
 	Omit PHP closing tag to help avoid accidental output

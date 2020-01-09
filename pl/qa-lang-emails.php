@@ -1,9 +1,13 @@
 <?php
+	
 /*
-	Question2Answer by Gideon Greenspan and contributors
-	http://www.question2answer.org/
+	Question2Answer (c) Gideon Greenspan
 
+	https://www.question2answer.org/
+
+	
 	File: qa-include/qa-lang-emails.php
+	Version: See define()s at top of qa-include/qa-base.php
 	Description: Language phrases for email notifications
 
 
@@ -11,13 +15,18 @@
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-
+	
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.question2answer.org/license.php
+	More about this license: https://www.question2answer.org/license.php
+
+	Polish translation by Bartosz Wójcik
+
+	Translation repository: https://github.com/PELock/Question2Answer
+	My web page: https://www.pelock.com
 */
 
 	return array(
@@ -33,7 +42,7 @@
 		'c_commented_body' => "Użytkownik ^c_handle dodał komentarz w serwisie ^site_title:\n\n^open^c_content^close\n\nObecna dyskusja:\n\n^open^c_context^close\n\nMożesz odpowiedzieć dodając swój komentarz:\n\n^url\n\nSerwis ^site_title",
 		'c_commented_subject' => 'Twój komentarz w serwisie ^site_title został dodany',
 
-		'confirm_body' => "Kliknij w poniższy link, aby potwierdzić swój adres email w serwisie ^site_title.\n\n^url\n\nSerwis ^site_title",
+		'confirm_body' => "Kliknij w poniższy link, aby potwierdzić swój adres email w serwisie ^site_title.\n\n^url\n\nKod potwierdzający: ^code\n\n Dziękujemy,\n^site_title",
 		'confirm_subject' => 'Potwierdzenie adresu email w serwisie ^site_title',
 
 		'feedback_body' => "Treść:\n^message\n\nImię i nazwisko:\n^name\n\nEmail:\n^email\n\nPoprzednia strona:\n^previous\n\nUżytkownik:\n^url\n\nAdres IP:\n^ip\n\nPrzeglądarka:\n^browser",

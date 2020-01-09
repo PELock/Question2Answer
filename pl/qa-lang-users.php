@@ -1,23 +1,32 @@
 <?php
+	
 /*
-	Question2Answer by Gideon Greenspan and contributors
-	http://www.question2answer.org/
+	Question2Answer (c) Gideon Greenspan
 
-	File: qa-include/qa-lang-emails.php
-	Description: Language phrases for email notifications
+	https://www.question2answer.org/
+
+	
+	File: qa-include/qa-lang-users.php
+	Version: See define()s at top of qa-include/qa-base.php
+	Description: Language phrases for user management
 
 
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 2
 	of the License, or (at your option) any later version.
-
+	
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.question2answer.org/license.php
+	More about this license: https://www.question2answer.org/license.php
+
+	Polish translation by Bartosz Wójcik
+
+	Translation repository https://github.com/PELock/Question2Answer
+	My web page https://www.pelock.com
 */
 
 	return array(
@@ -133,10 +142,16 @@
 		'user_not_found' => 'Nie znaleziono użytkownika',
 		'website' => 'Strona',
 		'x_ago_from_y' => '^1 temu z ^2',
-		'terms_not_accepted' => "Musisz to zaznaczyć.",
-	);
-	
 
+		'terms_not_accepted' => "Musisz to zaznaczyć.",
+
+		'confirm_button' => "Potwierdź adres email",
+		'email_code_another' => "wyślij ponownie",
+		'email_code_emailed' => "Wysłano kod na adres email",
+		'email_code_label' => "Kod:",
+		'email_code_wrong' => "Nieprawidłwy kod",
+		'handle_blocked' => "Taka nazwa użytkownika jest zabroniona - proszę użyj innej",
+	);
 /*
 	Omit PHP closing tag to help avoid accidental output
 */
